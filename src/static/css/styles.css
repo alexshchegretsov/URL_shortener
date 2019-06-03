@@ -1,0 +1,19 @@
+.table {
+    display: compact;
+    width: 100%;
+}
+
+.table td {
+    width: 10%;
+    padding: 5px;
+    overflow: hidden;
+
+}
+
+#no_td {
+    text-decoration: none;
+}
+
+#no_td:visited {
+    color: black
+}
