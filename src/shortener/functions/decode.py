@@ -1,22 +1,6 @@
 BASE62 = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 
-def base_62_encode(id, alphabet=BASE62):
-    """Encode a positive number in Base X
-
-    Arguments:
-    - `id`: The number to encode
-    - `alphabet`: The alphabet to use for encoding
-    """
-    arr = []
-    base = len(alphabet)
-    while id:
-        id, rem = divmod(id, base)
-        arr.append(alphabet[rem])
-    arr.reverse()
-    return ''.join(arr)
-
-
 def base_62_decode(link_id, alphabet=BASE62):
     """Decode a Base X encoded string into the number
 
