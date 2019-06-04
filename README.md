@@ -7,7 +7,7 @@
 <h2>Demo</h2>
 <ul>
   <li><img src="images/demo3.png" height="420px"></li>
-  <li><img src="images/demo4.png" height="420px" width="300px"></li>
+  <li><img src="images/demo4.png" height="420px"></li>
 </ul>
 <h2>Built with</h2>
 <ul>
