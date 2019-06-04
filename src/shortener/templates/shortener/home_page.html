@@ -10,12 +10,10 @@ Link Shortener
     <h3><a href="{{ HOST }}" id="no_td" style="text-decoration: none">SHRTN.IT</a></h3>
     <form action="" method="post">
         {% csrf_token %}
-        <table>
-            <tr>
-                <td>{{ form.as_p }}</td>
-                <td><input type="submit" value="SHRTN IT"></td>
-            </tr>
-        </table>
+
+        {{ form.as_p }}
+        <input type="submit" value="SHRTN IT">
+
     </form>
 
 </div>
@@ -23,7 +21,7 @@ Link Shortener
 <p></p>
 
 <div align="center">
-    <table class="table" border="2px">
+    <table class="table">
 
         <tr>
             <th>Original link</th>
@@ -35,10 +33,10 @@ Link Shortener
         {% for url in urls_from_db %}
 
         <tr>
-            <td align="center">{{ url.long_url }}</td>
-            <td align="center"><a href="http://127.0.0.1:8000/{{ url.short_url }}" target="_blank">http://127.0.0.1:8000/{{ url.short_url }}</a></td>
-            <td align="center">{{ url.date_add|date:"d.m.Y H:i:s" }}</td>
-            <td align="center">{{ url.count }}</td>
+            <td>{{ url.long_url }}</td>
+            <td><a href="http://127.0.0.1:8000/{{ url.short_url }}" target="_blank">http://127.0.0.1:8000/{{ url.short_url }}</a></td>
+            <td>{{ url.date_add|date:"d.m.Y H:i:s" }}</td>
+            <td>{{ url.count }}</td>
         </tr>
 
         {% endfor %}
