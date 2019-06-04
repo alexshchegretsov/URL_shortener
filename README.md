@@ -10,7 +10,8 @@
   <img src="images/base62.png" height="420px">
 <h2>For developers</h2>
 <p>Clone the source locally:</p>
-<pre> $ git clone https://github.com/alexshchegretsov/TMS_project_url_shortener.git
+<pre> 
+      $ git clone https://github.com/alexshchegretsov/TMS_project_url_shortener.git
       $ cd TMS_project_url_shortener
 </pre>
 <p>Update package list and install pip for Python 3:</p>
@@ -35,3 +36,7 @@
 <ul>
   <li><a href="https://www.djangoproject.com/">Django</a> - The web framework used</li>
 </ul>
+<h2>Author</h2>
+<a href="#">Alex Shchegretsov</a>
+<h2>License</h2>
+<p>MIT</p>
