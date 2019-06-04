@@ -36,7 +36,5 @@
 <ul>
   <li><a href="https://www.djangoproject.com/">Django</a> - The web framework used</li>
 </ul>
-<h2>Author</h2>
-<a href="#">Alex Shchegretsov</a>
 <h2>License</h2>
-<p>MIT</p>
+<p>MIT &copy; <a href="https://github.com/alexshchegretsov">Alex Shchegretsov</a></p>
