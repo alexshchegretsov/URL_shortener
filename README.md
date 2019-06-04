@@ -12,7 +12,7 @@
 <p>Clone the source locally:</p>
 <pre> 
       $ git clone https://github.com/alexshchegretsov/TMS_project_url_shortener.git
-      $ cd TMS_project_url_shortener
+      $ cd Url_shortener
 </pre>
 <p>Update package list and install pip for Python 3:</p>
 <pre>
@@ -23,7 +23,7 @@
 <pre>
       $ pip3 --version
 </pre>
-<p>You are still at TMS_project_url_shortener directory, create and run virtual environment:</p>
+<p>You are still at /Url_shortener/ directory, create and run virtual environment:</p>
 <pre>
       $ virtualenv -p python3.7 .venv
       $ source .venv/bin/activate
