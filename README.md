@@ -8,6 +8,29 @@
   <img src="images/demo3.png" height="420px">
 <h2>Key system</h2>
   <img src="images/base62.png" height="420px">
+<h2>For developers</h2>
+<p>Clone the source locally:</p>
+<pre> $ git clone https://github.com/alexshchegretsov/TMS_project_url_shortener.git
+      $ cd TMS_project_url_shortener
+</pre>
+<p>Update package list and install pip for Python 3:</p>
+<pre>
+      $ sudo apt update
+      $ sudo apt install python3-pip
+</pre>
+<p>Once the installation is complete, verify the installation by checking the pip version:</p>
+<pre>
+      $ pip3 --version
+</pre>
+<p>You are still at TMS_project_url_shortener directory, create and run virtual environment:</p>
+<pre>
+      $ virtualenv -p python3.7 .venv
+      $ source .venv/bin/activate
+</pre>
+<h6>Install all dependencies from requirements.txt:</h6>
+<pre>
+      $ pip3 install -r requirements.txt
+</pre>
 <h2>Built with</h2>
 <ul>
   <li><a href="https://www.djangoproject.com/">Django</a> - The web framework used</li>
