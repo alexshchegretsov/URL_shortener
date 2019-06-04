@@ -7,6 +7,10 @@ from shortener.models import Url
 
 
 def redirect_to_long_url(request, link_id):
+    """
+    Decodes url into database id, for which
+    finds the long url and redirects to it.
+    """
     if request.method == 'GET':
         id = base_62_decode(link_id)
         url = get_object_or_404(Url, id=id)
