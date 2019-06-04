@@ -5,11 +5,9 @@
 <h2>Why?</h2>
 <p>URL shortening is used to create shorter aliases for long URLs. We call these shortened aliases “short links”. Users are redirected to the original URL when they hit these short links. Short links save a lot of space when displayed, printed, messaged, or tweeted. Additionally, users are less likely to mistype shorter URLs.</p>
 <h2>Demo</h2>
-<ul style="list-style: none;">
-  <li><img src="images/demo3.png" height="420px"></li>
-  <li>System</li>
-  <li><img src="images/base62.png" height="420px"></li>
-</ul>
+  <img src="images/demo3.png" height="420px">
+<h2>Key system</h2>
+  <img src="images/base62.png" height="420px">
 <h2>Built with</h2>
 <ul>
   <li><a href="https://www.djangoproject.com/">Django</a> - The web framework used</li>
