@@ -37,7 +37,7 @@ Link Shortener
         <tr>
             <td align="center">{{ url.long_url }}</td>
             <td align="center"><a href="http://127.0.0.1:8000/{{ url.short_url }}" target="_blank">http://127.0.0.1:8000/{{ url.short_url }}</a></td>
-            <td align="center">{{ url.date_add}}</td>
+            <td align="center">{{ url.date_add|date:"d.m.Y H:i:s" }}</td>
             <td align="center">{{ url.count }}</td>
         </tr>
 
