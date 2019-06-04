@@ -22,11 +22,7 @@ class TestView(TestCase):
         self.assertEquals(response.status_code, 200)
         self.assertTemplateUsed(response, 'shortener/home_page.html')
 
-    def test_url_form_handler_POST_method(self):
-        response = self.c.post('/',{'long_url': 'http://test.google.com'})
-        print(response)
-
-    def test_redirect_to_long_url_GET(self):
+    def test_redirect_to_long_url_exist_and_redirect(self):
         response_1 = self.c.get('/1')
         response_2 = self.c.get('/a')
         self.assertEquals(response_1.status_code, 301)
