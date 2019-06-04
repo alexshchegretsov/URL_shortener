@@ -6,7 +6,7 @@
 <p>URL shortening is used to create shorter aliases for long URLs. We call these shortened aliases “short links”. Users are redirected to the original URL when they hit these short links. Short links save a lot of space when displayed, printed, messaged, or tweeted. Additionally, users are less likely to mistype shorter URLs.</p>
 <h2>Demo</h2>
   <img src="images/demo3.png" height="420px">
-<h2>Key system</h2>
+<h2>Scheme</h2>
   <img src="images/base62.png" height="420px">
 <h2>For developers</h2>
 <p>Clone the source locally:</p>
