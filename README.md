@@ -1,3 +1,5 @@
+<img src="https://www.google.com/search?q=short+url+logo&client=ubuntu&channel=fs&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiF-JOJs9DiAhUO0qYKHdwPBe0Q_AUIECgB&biw=1366&bih=639#imgdii=GTOl9wHWOLaEpM:&imgrc=q1Xifs_ZnS0a3M:">
+
 <h1>SHRTN.IT - is a web service that shortens urls</h1>
 <p>The service accepts any URLs, saves to the database, encodes its id with "base 62" algorithm and returns to the user.</p>
 <h2>Why?</h2>
