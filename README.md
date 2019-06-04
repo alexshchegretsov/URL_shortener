@@ -1,4 +1,4 @@
-<p align="center"><img src="images/img2.png"></p>
+<p align="center"><img src="images/img2.png" style="background-color: #ffffff;"></p>
 <h1 align="center">SHRTN.IT - is a web service that shortens urls</h1>
 <p>The service accepts any URLs, saves to the database, encodes its id with "base 62" algorithm and returns to the user.</p>
 <h2>Why?</h2>
