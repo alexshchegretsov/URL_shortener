@@ -27,7 +27,7 @@
       $ virtualenv -p python3.7 .venv
       $ source .venv/bin/activate
 </pre>
-<h6>Install all dependencies from requirements.txt:</h6>
+<h4>Install all dependencies from requirements.txt:</h4>
 <pre>
       $ pip3 install -r requirements.txt
 </pre>
