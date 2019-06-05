@@ -10,7 +10,7 @@ HOST = 'http://127.0.0.1:8000'
 
 def url_form_handler(request):
     """Directs to home_page and handles form"""
-    urls_from_db = Url.objects.all()[:8]
+    urls_from_db = Url.objects.all()
     if request.method == 'GET':
         context = {'form': UrlForm(), 'urls_from_db': urls_from_db, 'HOST': HOST}
         return render(request, 'shortener/home_page.html', context)
