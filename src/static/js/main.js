@@ -12,3 +12,4 @@ function myFunctionCopy() {
   /* Change the text inside <h3> */
   document.getElementById("x").innerHTML = "Copied";
 }
+
