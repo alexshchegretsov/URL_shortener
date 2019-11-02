@@ -1,4 +1,4 @@
-django
+django==2.1
 psycopg2
 dj-database-url
 django-extensions
