@@ -8,37 +8,25 @@
   <img src="screenshot/demo5.png" height="420px">
 <h2>Scheme</h2>
   <img src="screenshot/base62.png" height="420px">
-<h2>For developers</h2>
+<h2>How to run</h2>
 <p>Clone the source locally:</p>
 <pre> 
       $ git clone https://github.com/alexshchegretsov/URL_shortener.git
       $ cd URL_shortener
 </pre>
-<p>Update package list and install pip for Python 3:</p>
-<pre>
-      $ sudo apt update
-      $ sudo apt install python3-pip
-</pre>
-<p>Once the installation is complete, verify the installation by checking the pip version:</p>
-<pre>
-      $ pip3 --version
-</pre>
-<p>You are still at /URL_shortener/ directory, create and run virtual environment:</p>
-<pre>
-      $ virtualenv -p python3.7 .venv
-      $ source .venv/bin/activate
-</pre>
-<h4>Install all dependencies from requirements.txt:</h4>
-<pre>
-      $ pip3 install -r requirements.txt
-</pre>
-<p>Move to /src/ directory, initialize data base and run server:</p>
-<pre>
-      $ cd src/
-      $ ./manage.py migrate
-      $ ./manage.py runserver
-</pre>
-<p>Open your browser in a new window and go to localhost, for this you need to enter in the input line:</p>
+
+<p>Run containers with `docker-compose` tool:</p>
+```
+      $ docker-compose up -d
+```
+<p>Initialize postgres and collect staticfiles:</p>
+```
+      $ docker-compose run --rm web ./manage.py migrate
+      $ docker-compose run --rm web ./manage.py collectstatic    (type "yes")
+```
+
+
+<p>Open your browser in a new window and go to localhost on 8000 port:</p>
 <pre>
       http://127.0.0.1:8000/
 </pre>
