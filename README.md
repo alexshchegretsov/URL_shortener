@@ -16,14 +16,14 @@
 </pre>
 
 <p>Run containers with `docker-compose` tool:</p>
-```
+<pre>
       $ docker-compose up -d
-```
+</pre>
 <p>Initialize postgres and collect staticfiles:</p>
-```
+<pre>
       $ docker-compose run --rm web ./manage.py migrate
       $ docker-compose run --rm web ./manage.py collectstatic    (type "yes")
-```
+</pre>
 
 
 <p>Open your browser in a new window and go to localhost on 8000 port:</p>
